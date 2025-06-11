@@ -1,0 +1,53 @@
+.rates-main-div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+.add-more-btn-div{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+.add-more-btn-div button{
+    width: 5rem;
+    height: 1.8rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #6990d8;
+    font-size: 1.1rem;
+    color: #f7f7f7;
+    cursor: pointer;
+}
+.message{
+    font-size: 2rem;
+    color: #f7f7f7;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+@media only screen and (max-width: 992px){
+    .rates-main-div{  
+        grid-template-columns: auto auto auto;
+    }
+    .message{
+        font-size: 1.8rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    .message{
+        font-size: 1.6rem;
+        margin-top: 4rem;
+    }
+}
+@media only screen and (max-width: 480px){
+    .rates-main-div{  
+        grid-template-columns: auto auto;
+    }
+    .add-more-btn-div button{
+        width: 4.5rem;
+        font-size: 1rem;
+    }
+    .message{
+        font-size: 1.4rem;
+    }
+}

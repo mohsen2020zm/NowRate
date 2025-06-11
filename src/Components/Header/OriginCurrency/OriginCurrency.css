@@ -1,0 +1,89 @@
+.origin-main-div{
+    display: flex;
+}
+.select-currency-div{
+    width: 11rem;
+    height: 100%;
+    background-color: #393e46;
+    border: 1px solid #6990d8;
+    border-radius: 5px;
+    color: #f7f7f7;
+    display: flex;
+    align-items: center;
+}
+.org-curr-input{
+    width: 9rem;
+    height: 1.8rem;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+    font-size: 0.8rem;
+    color: #f7f7f7;
+}
+.select-currency-div img{
+    width: 1.6rem;
+    height: 1rem;
+    margin-left: 0.5rem;
+}
+.currencies-div{
+    width: 11.2rem;
+    max-height: 8rem;
+    background-color: #393e46;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 2.1rem;
+    border-radius: 5px;
+    overflow: auto;
+    border: 1px solid #6990d8;
+    box-sizing: border-box;
+}
+.origin-main-div svg{
+    color: #6990d8;
+    margin: 0.5rem;
+}
+.des-curr-input{
+    width: 11rem;
+    height: 1.8rem;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+    border: 1px solid #6990d8;
+    border-radius: 5px;
+    background-color: #393e46;
+    font-size: 0.8rem;
+    color: #f7f7f7;
+}
+.currencies-div::-webkit-scrollbar{
+    width: 0.6rem;
+}
+.currencies-div::-webkit-scrollbar-track{
+    background-color: #2e2f31;
+    border-radius: 5px;
+}
+.currencies-div::-webkit-scrollbar-thumb{
+    background-color: #6990d8;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 480px){
+    .select-currency-div{
+        width: 8rem;
+    }
+    .org-curr-input{
+        width: 6rem;
+        font-size: 0.75rem;
+    }
+    .des-curr-input{
+        width: 8rem;
+        font-size: 0.75rem;
+    }
+    .currencies-div{
+        width: 8.2rem;
+    }
+    .select-currency-div img{
+        width: 1.5rem;
+        height: 0.9rem;
+    }
+}

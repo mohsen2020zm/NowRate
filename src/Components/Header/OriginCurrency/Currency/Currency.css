@@ -1,0 +1,24 @@
+.currency-main-div{
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 0.2rem 0;
+}
+.currency-main-div img{
+    width: 1.5rem;
+    height: 0.9rem;
+    margin: 0 0.5rem 0 0.3rem;
+}
+.currency-full-name{
+    font-size: 0.7rem;
+    color: #f7f7f7;
+}
+
+@media only screen and (max-width: 480px){
+    .currency-main-div img{
+        width: 1.4rem;
+        height: 0.8rem;
+    }
+}

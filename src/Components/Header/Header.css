@@ -1,0 +1,23 @@
+.header-flex-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-date{
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 768px){
+    .header-flex-div{
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+    .header-date{
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width: 480px){
+    .header-date{
+        font-size: 1.1rem;
+    }
+}
